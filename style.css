@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+h1 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.toc {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border: 2px solid #004080;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.toc h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.toc li {
+    margin-bottom: 10px;
+}
+.toc a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+.toc a:hover {
+    text-decoration: underline;
+}
+.collapsible {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #004080;
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #004080;
+    transition: background-color 0.3s ease;
+}
+.collapsible:hover {
+    background-color: #0059b3;
+}
+.sub-collapsible {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0059b3;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #0059b3;
+    transition: background-color 0.3s ease;
+}
+.sub-collapsible:hover {
+    background-color: #0073e6;
+}
+.content, .sub-content {
+    padding: 15px;
+    display: block;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-top: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.sub-content {
+    margin-left: 40px;
+}
+p {
+    margin-bottom: 15px;
+}
